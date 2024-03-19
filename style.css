@@ -1,3 +1,5 @@
+/*Adição da fonte*/
+
 @font-face {
     font-family: raleway;
     src: url(Raleway-VariableFont_wght.ttf);
@@ -10,8 +12,8 @@
     font-family: "raleway", sans-serif;
 }
 
+/*Ajustes*/
 html{
-    height: 500vh;
     background-color: #fff;
   }
 
@@ -25,6 +27,8 @@ html{
     align-items: center;
     justify-content: space-between;
   }
+
+/*Cor e efeito*/
   
 header {
     width: 100%;
@@ -69,6 +73,8 @@ header ul li a{
     text-decoration: none;
 }
 
+/*Botão*/
+
 .btn-contato button{
     width: 120px;
     height: 40px;
@@ -79,6 +85,8 @@ header ul li a{
     border-radius: 10px;
     transition: .2s;
 }
+
+/*Parte inicial*/
 
 .banner {
     height: 100vh;
@@ -117,6 +125,8 @@ header ul li a{
     border-radius: 10px;
 }
 
+/*Configuração Catálogo*/
+
 .catalogo {
     padding: 2.5rem;
     text-align: center;
@@ -143,6 +153,8 @@ header ul li a{
     height: 250px;
 }
 
+/*Informações*/
+
 .info {
     background-color: #fff;
     border: 2px solid #FEE300;
@@ -159,6 +171,8 @@ header ul li a{
     color: #888;
 }
 
+/*Sobre nós*/
+
 .sobre {
     background-color: #1f1f1f;
     color: #fff;
@@ -171,6 +185,8 @@ header ul li a{
     max-width: 800px; 
     margin: 0 auto; 
 }
+
+/*Desenvolvido por João Paulo E. Valdivino*/
 
 footer {
     background-color: #FEE300;
